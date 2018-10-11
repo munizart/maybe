@@ -4,5 +4,8 @@
   "description": "small null-checking data-type",
   "main": "index.js",
   "license": "MIT",
-  "private": false
+  "private": false,
+  "devDependencies": {
+    "jsdoc": "^3.5.5"
+  }
 }
