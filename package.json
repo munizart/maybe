@@ -1,0 +1,8 @@
+{
+  "name": "Maybe",
+  "version": "1.0.0",
+  "description": "small null-checking data-type",
+  "main": "index.js",
+  "license": "MIT",
+  "private": false
+}
