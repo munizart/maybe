@@ -9,7 +9,7 @@ function Just (a) {
     chain (trasnform) {
       return trasnform(a)
     },
-    fold(transformNothing, transformJust) {
+    fold (transformNothing, transformJust) {
       return transformJust(a)
     },
     inspect: toString,
@@ -28,7 +28,7 @@ function Nothing () {
     chain (trasnform) {
       return Maybe.Nothing()
     },
-    fold(transformNothing, transformJust) {
+    fold (transformNothing, transformJust) {
       return transformNothing()
     },
     inspect: toString,
